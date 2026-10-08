@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url(OIP (1).jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+background-color: white;
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 20px;
+border-radius: 20px;
+gap: 20px;
+box-shadow: 5px 5px 10px black;
+
+}
+
+input{
+width: 300px;
+margin: auto;
+border: 2px solid rgb(239, 53, 84);
+padding: 5px;
+border-radius: 5px;
+outline: none;
+height: 20px;
+font-weight: bold;
+}
+
+button{
+width: 310px;
+margin: auto;
+margin: auto;
+cursor: pointer;
+border:none;
+background-color: rgb(210,64,88);
+color: white;
+padding: 5px;
+border-radius: 5px;
+height: 30px;
+font-size: 15px;
+font-weight: bold;
+
+
+
+}
+button:hover{
+    background-color: rgb(153, 43, 61);
+    transition: 1s;
+}
